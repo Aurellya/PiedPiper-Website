@@ -20,7 +20,7 @@ function Category() {
                   <FaFire />
                 </div>
                 <h3>Starter</h3>
-                <h4>$8.99</h4>
+                <h4>$19.99</h4>
                 <p>per month</p>
                 <ul className="category__container-features">
                   <li>100 Transactions</li>
@@ -38,7 +38,7 @@ function Category() {
                   <BsXDiamondFill />
                 </div>
                 <h3>Gold</h3>
-                <h4>$29.99</h4>
+                <h4>$49.99</h4>
                 <p>per month</p>
                 <ul className="category__container-features">
                   <li>1000 Transactions</li>
@@ -56,7 +56,7 @@ function Category() {
                   <GiCrystalize />
                 </div>
                 <h3>Diamond</h3>
-                <h4>$99.99</h4>
+                <h4>$120.99</h4>
                 <p>per month</p>
                 <ul className="category__container-features">
                   <li>Unlimited Transactions</li>
