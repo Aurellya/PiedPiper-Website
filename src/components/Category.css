@@ -17,7 +17,8 @@
 
 .category__container-card:nth-child(2) {
   transform: scale(1.05);
-  background: #242424;
+  background: #303f3e;
+  /* background: #0f4f4e; */
 }
 
 .category__container-card:hover {
@@ -112,7 +113,7 @@
 
   .category__container-card:nth-child(2) {
     transform: scale(1);
-    background: #242424;
+    background: #303f3e;
     margin: 24px;
   }
 

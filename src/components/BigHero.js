@@ -5,10 +5,11 @@ import Particles from "react-particles-js";
 function BigHero({ lightBg, lightText, lightTextDesc, headline, description }) {
   const parameter = {
     particles: {
-      color: "blue",
-      number: {
-        value: 70,
+      color: { value: "white" },
+      line_linked: {
+        opacity: 0.3,
       },
+      number: { value: 70 },
     },
     interactivity: {
       events: {
@@ -27,9 +28,10 @@ function BigHero({ lightBg, lightText, lightTextDesc, headline, description }) {
       >
         <div className="container">
           <div className="text-box">
-            <h1 className={lightText ? "heading" : "heading dark"}>
+            <h1 className={lightText ? "heading" : "heading dark "}>
               {headline}
             </h1>
+            <div className="rect-bottom"></div>
             <p
               className={
                 lightText

@@ -45,7 +45,9 @@ function Category() {
                   <li>3.5% Cash Back</li>
                   <li>$100,000 Limit</li>
                 </ul>
-                <Button buttonSize="btn--wide">Choose Plan</Button>
+                <Button buttonSize="btn--wide" buttonColor="secondary">
+                  Choose Plan
+                </Button>
               </div>
             </Link>
             <Link to="/sign-up" className="category__container-card">
