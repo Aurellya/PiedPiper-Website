@@ -8,8 +8,8 @@ import {
   FaYoutube,
   FaTwitter,
   FaLinkedin,
+  FaPiedPiperPp,
 } from "react-icons/fa";
-import { MdFingerprint } from "react-icons/md";
 
 function Footer() {
   return (
@@ -72,11 +72,11 @@ function Footer() {
         <div className="social-media-wrap">
           <div className="footer-logo">
             <Link to="/" className="social-logo">
-              <MdFingerprint className="navbar-icon" />
-              LAVISH
+              <FaPiedPiperPp className="navbar-icon" />
+              <span className="logo-text"> PIEDPIPER</span>
             </Link>
           </div>
-          <small className="website-rights">LAVISH © 2020</small>
+          <small className="website-rights">PiperNet © 2020</small>
           <div className="social-icons">
             <Link
               className="social-icon-link"
