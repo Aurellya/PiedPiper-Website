@@ -31,7 +31,7 @@ function BigHero({ lightBg, lightText, lightTextDesc, headline, description }) {
             <h1 className={lightText ? "heading" : "heading dark "}>
               {headline}
             </h1>
-            <div className="rect-bottom"></div>
+            {/* <div className="rect-bottom"></div> */}
             <p
               className={
                 lightText

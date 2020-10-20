@@ -7,7 +7,7 @@ export const mainObj = {
     "Over the years, Pied Piper has changed many landscapes. Compression. Data. The Internet. PiperNet is powered by your devices, protective of your privacy, and programmed for your freedom. Discover for yourself why we need PiperNet, the Internet We Deserve.",
 };
 
-export const homeObjOne = {
+export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -15,23 +15,23 @@ export const homeObjOne = {
   headline: "Committed to Never Sharing User Data",
   description:
     "The more users who join our network, the more powerful it grows, and the better the world becomes. Available now, don't miss out!",
-  buttonLabel: "Download",
+  buttonLabel: "Join The Fight",
   imgStart: "",
   img: "images/svg-1.svg",
   alt: "Credit Card",
 };
 
-export const homeObjTwo = {
+export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "100% SECURE",
-  headline: "Stay protected 24/7 anywhere anytime",
+  topLine: "100% FASTER",
+  headline: "Middle-Out Compression Solution",
   description:
-    "We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime",
-  buttonLabel: "Learn More",
+    "First Pied Piper product that will takes all your files and makes them smaller. Built on a universal compression engine that stacks on any file, data, video or image no matter what size.",
+  buttonLabel: "Download",
   imgStart: "",
-  img: "images/svg-5.svg",
+  img: "images/folder.svg",
   alt: "Vault",
 };
 
@@ -39,11 +39,11 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "ENJOY BENEFIT",
+  topLine: "ENJOY BENEFITS",
   headline: "The World's first Full-stack decentralized API",
   description:
     "PiperNet is tailor-made for developers to grow their businesses. Pied Piper has an API to fit your every need whether to increase performace or wanting to cut costs.",
-  buttonLabel: "See More",
+  buttonLabel: "Learn More",
   imgStart: "start",
   img: "images/svg-2.svg",
   alt: "Vault",

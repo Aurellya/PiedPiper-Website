@@ -113,7 +113,7 @@
 }
 
 .secondary:hover {
-  background-color: #011414;
+  background-color: rgb(240, 10, 70);
   color: var(--primary);
   border: none;
 }

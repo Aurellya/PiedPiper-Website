@@ -12,7 +12,7 @@ function Category() {
     <IconContext.Provider value={{ color: "#fff", size: 64 }}>
       <div className="category__section">
         <div className="category__wrapper">
-          <h1 className="category__heading">Category</h1>
+          <h1 className="category__heading">Subscription</h1>
           <div className="category__container">
             <Link to="/sign-up" className="category__container-card">
               <div className="category__container-cardInfo">

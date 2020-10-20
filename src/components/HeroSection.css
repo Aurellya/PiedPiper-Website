@@ -28,6 +28,7 @@
 .home__hero-text-wrapper {
   max-width: 540px;
   padding-top: 0;
+  margin: 0 auto;
   /* padding-bottom: 60px; */
 }
 
@@ -66,6 +67,7 @@
 
 .home__hero-img-wrapper {
   max-width: 555px;
+  text-align: center;
 }
 
 .home__hero-img {

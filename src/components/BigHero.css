@@ -2,8 +2,16 @@
   text-align: center;
 }
 
+.text-box > h1 {
+  font-size: 60px;
+}
+
+.text-box > p {
+  font-size: 20px;
+}
+
 .home__main-hero-subtitle {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   /* margin-bottom: 35px; */
   font-size: 18px;
@@ -18,10 +26,10 @@
   z-index: 99;
 }
 
-.rect-bottom {
+/* .rect-bottom {
   background-color: white;
-  width: 390px;
+  width: 420px;
   height: 7px;
   margin: 0 auto;
   margin-bottom: 20px;
-}
+} */
