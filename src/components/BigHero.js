@@ -7,9 +7,9 @@ function BigHero({ lightBg, lightText, lightTextDesc, headline, description }) {
     particles: {
       color: { value: "white" },
       line_linked: {
-        opacity: 0.3,
+        opacity: 0.1,
       },
-      number: { value: 70 },
+      number: { value: 190 },
     },
     interactivity: {
       events: {
