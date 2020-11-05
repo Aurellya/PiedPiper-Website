@@ -1,10 +1,8 @@
 import React from "react";
 import { Button } from "./Button";
 import "./Category.css";
-import { FaFire } from "react-icons/fa";
-import { BsXDiamondFill } from "react-icons/bs";
-import { GiCrystalize } from "react-icons/gi";
 import { IconContext } from "react-icons/lib";
+import { GiFireZone, GiBrutalHelm, GiImperialCrown } from "react-icons/gi";
 import { Link } from "react-router-dom";
 
 function Category() {
@@ -17,15 +15,15 @@ function Category() {
             <Link to="/sign-up" className="category__container-card">
               <div className="category__container-cardInfo">
                 <div className="icon">
-                  <FaFire />
+                  <GiFireZone />
                 </div>
-                <h3>Starter</h3>
+                <h3>Silver</h3>
                 <h4>$19.99</h4>
                 <p>per month</p>
                 <ul className="category__container-features">
-                  <li>100 Transactions</li>
-                  <li>2% Cash Back</li>
-                  <li>$10,000 Limit</li>
+                  <li>1 Add-on</li>
+                  <li>1 User</li>
+                  <li>Free Support 24/7</li>
                 </ul>
                 <Button buttonSize="btn--wide" buttonColor="primary">
                   Choose Plan
@@ -35,15 +33,15 @@ function Category() {
             <Link to="/sign-up" className="category__container-card">
               <div className="category__container-cardInfo">
                 <div className="icon">
-                  <BsXDiamondFill />
+                  <GiBrutalHelm />
                 </div>
                 <h3>Gold</h3>
                 <h4>$49.99</h4>
                 <p>per month</p>
                 <ul className="category__container-features">
-                  <li>1000 Transactions</li>
-                  <li>3.5% Cash Back</li>
-                  <li>$100,000 Limit</li>
+                  <li>10 Add-ons</li>
+                  <li>10 Users</li>
+                  <li>Free Support 24/7</li>
                 </ul>
                 <Button buttonSize="btn--wide" buttonColor="secondary">
                   Choose Plan
@@ -53,15 +51,15 @@ function Category() {
             <Link to="/sign-up" className="category__container-card">
               <div className="category__container-cardInfo">
                 <div className="icon">
-                  <GiCrystalize />
+                  <GiImperialCrown />
                 </div>
-                <h3>Diamond</h3>
+                <h3>Platinum</h3>
                 <h4>$120.99</h4>
                 <p>per month</p>
                 <ul className="category__container-features">
-                  <li>Unlimited Transactions</li>
-                  <li>5% Cash Back</li>
-                  <li>Unlimited Spending</li>
+                  <li>All Add-ons</li>
+                  <li>Unlimited Users</li>
+                  <li>Free Support 24/7</li>
                 </ul>
                 <Button buttonSize="btn--wide" buttonColor="primary">
                   Choose Plan

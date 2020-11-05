@@ -7,6 +7,20 @@ export const mainObj = {
     "Over the years, Pied Piper has changed many landscapes. Compression. Data. The Internet. PiperNet is powered by your devices, protective of your privacy, and programmed for your freedom. Discover for yourself why we need PiperNet, the Internet We Deserve.",
 };
 
+export const homeObjOne = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "100% FASTER",
+  headline: "Middle-Out Compression Solution",
+  description:
+    "First Pied Piper product that will takes all your files and makes them smaller. Built on a universal compression engine that stacks on any file, data, video or image no matter what size.",
+  buttonLabel: "Download",
+  imgStart: "",
+  img: "images/svg-3.svg",
+  alt: "Vault",
+};
+
 export const homeObjTwo = {
   lightBg: false,
   lightText: true,
@@ -19,20 +33,6 @@ export const homeObjTwo = {
   imgStart: "",
   img: "images/svg-1.svg",
   alt: "Credit Card",
-};
-
-export const homeObjOne = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
-  topLine: "100% FASTER",
-  headline: "Middle-Out Compression Solution",
-  description:
-    "First Pied Piper product that will takes all your files and makes them smaller. Built on a universal compression engine that stacks on any file, data, video or image no matter what size.",
-  buttonLabel: "Download",
-  imgStart: "",
-  img: "images/folder.svg",
-  alt: "Vault",
 };
 
 export const homeObjThree = {
