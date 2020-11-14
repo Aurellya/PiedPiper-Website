@@ -2,7 +2,7 @@ import React from "react";
 import "./BigHero.css";
 import Particles from "react-particles-js";
 
-function BigHero({ lightBg, lightText, lightTextDesc, headline, description }) {
+function BigHero({ lightBg, lightText, headline, description }) {
   const parameter = {
     particles: {
       color: { value: "white" },
