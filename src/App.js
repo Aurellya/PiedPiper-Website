@@ -7,10 +7,12 @@ import About from "./components/pages/About/About";
 import News from "./components/pages/News/News";
 import JoinUs from "./components/pages/JoinUs/JoinUs";
 import Footer from "./components/pages/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path="/" exact component={Home} />
