@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pied Piper Website
+Try to create a minor version of Pied Piper Website as I learn React.js. <br/>
+Status: [Not Completed]
+
+## Preview
+![screencapture-localhost-3000-2020-11-05-21_21_35](https://user-images.githubusercontent.com/58356073/98246361-2c6bd600-1fad-11eb-8b19-185c6c8ff98e.png)
 
 ## Available Scripts
 
