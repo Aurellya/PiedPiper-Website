@@ -2,7 +2,15 @@ import React from "react";
 import "./Block.css";
 // import { Link } from "react-router-dom";
 
-function Block({ lightBg, lightTextDesc, description, img, alt, imgStart }) {
+function Block({
+  lightBg,
+  lightTextDesc,
+  description,
+  img,
+  alt,
+  imgStart,
+  title,
+}) {
   return (
     <>
       <div
@@ -10,6 +18,9 @@ function Block({ lightBg, lightTextDesc, description, img, alt, imgStart }) {
           lightBg ? "home__hero-section2" : "home__hero-section2 darkBg"
         }
       >
+        <div className="title">
+          <h1>{title}</h1>
+        </div>
         <div className="container">
           <div
             className="home__hero-row2"
@@ -37,9 +48,6 @@ function Block({ lightBg, lightTextDesc, description, img, alt, imgStart }) {
               <div className="home__hero-img-wrapper2">
                 <img src={img} alt={alt} className="home__hero-img2" />
               </div>
-            </div>
-            <div className="title">
-              <h1>About Us</h1>
             </div>
           </div>
         </div>

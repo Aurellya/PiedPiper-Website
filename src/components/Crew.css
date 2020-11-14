@@ -1,0 +1,38 @@
+.home__hero-section3 {
+  padding: 0;
+}
+
+.home__hero-row3 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.home__hero-img-wrapper3 {
+  width: 80%;
+  padding-top: 6px;
+}
+
+.col3 {
+  flex-basis: 70%;
+  max-width: 100%;
+  padding: 0;
+  padding-left: 10px;
+}
+
+.col4 {
+  flex-basis: 30%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.alias {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.home__hero-img3 {
+  margin: 0;
+  height: 185px;
+  width: 100%;
+}
