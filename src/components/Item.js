@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import "./Item.css";
 
 function Item(item) {
   return (
     <>
-      <Link to="/react">
+      <Link to={"/"} style={{ textDecoration: "none" }}>
         <div className={item.title == null ? "box hide" : "box"}>
           <div className="image">
             <img src={item.img} alt={item.alt} />

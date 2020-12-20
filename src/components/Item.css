@@ -33,13 +33,9 @@
 .text {
   height: 100%;
   padding-top: 16px;
-  /* background-color: aliceblue; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   width: 90%;
   margin: 0 auto;
+  color: black;
 }
 
 .text > h1 {

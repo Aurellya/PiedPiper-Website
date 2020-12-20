@@ -1,6 +1,5 @@
 import React from "react";
 import Items from "../../Items";
-// import { ItemOne } from "./Data";
 import Title from "../../Title";
 import { TitleOne, NewsItem } from "./Data";
 
