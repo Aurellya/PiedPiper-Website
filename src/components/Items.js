@@ -11,7 +11,12 @@ const Items = (item) => {
         <Item {...item[2]} />
         <Item {...item[3]} />
         <Item {...item[4]} />
-        <Item />
+        <Item {...item[5]} />
+        <Item {...item[6]} />
+        <Item {...item[7]} />
+        <Item {...item[8]} />
+        <Item {...item[9]} />
+        {/* <Item /> */}
       </div>
     </>
   );

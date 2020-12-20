@@ -8,6 +8,7 @@ function Item(item) {
         <div className="image">
           <img src={item.img} alt={item.alt} />
         </div>
+
         <div className="text">
           <h1>{item.title}</h1>
           <p>{item.description}</p>

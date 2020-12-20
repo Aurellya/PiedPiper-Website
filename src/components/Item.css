@@ -2,7 +2,7 @@
   border: 1px solid black;
   border-radius: 10px;
   width: 250px;
-  height: 300px;
+  height: 320px;
   /* text-align: center; */
   display: flex;
   align-items: center;
@@ -25,19 +25,20 @@
 }
 
 .box > .image > img {
-  border-top-left-radius: 9px;
-  border-top-right-radius: 9px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 100%;
   width: 100%;
 }
 
 .text {
   height: 100%;
+  padding-top: 16px;
   /* background-color: aliceblue; */
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 90%;
   margin: 0 auto;
 }
@@ -46,6 +47,9 @@
   font-size: 20px;
   width: 100%;
   text-align: left;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .text > p {
