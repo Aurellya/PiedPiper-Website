@@ -6,7 +6,6 @@ function Title({ title }) {
       <div className="title">
         <h1>{title}</h1>
       </div>
-      ;
     </>
   );
 }
