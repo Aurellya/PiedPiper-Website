@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ReactMarkdown from "react-markdown";
+import ReactLoading from "react-loading";
 
 import news1 from "./news/pp-last-song.md";
 import news2 from "./news/russfest.md";
@@ -19,7 +20,8 @@ class FullNews extends Component {
 
     this.state = { 
       markdown: '' , 
-      id: this.props.match.params._id
+      id: this.props.match.params._id,
+      done: undefined
     };
   }
 
@@ -39,11 +41,14 @@ class FullNews extends Component {
 
     const value = newsObj[this.state.id];
 
+    setTimeout(() => {
     fetch(value)
       .then(res => res.text())
       .then(text => {
         this.setState({ markdown: text })
-      }); 
+      })
+      .then(json => this.setState({ done: true }));; 
+    }, 1200);
   }
 
   render() {
@@ -51,7 +56,13 @@ class FullNews extends Component {
 
     return (
       <div className="fullnews">
-        <ReactMarkdown source={markdown} />
+        {!this.state.done ? (
+          <div className="loading">
+            <ReactLoading type={"bars"} color={"#001715"} />
+          </div>
+          ) : (
+          <ReactMarkdown source={markdown} />
+        )}
       </div>
     );
   }
