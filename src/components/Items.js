@@ -18,7 +18,7 @@ const Items = (item) => {
           <Item {...item1} />
         ))}
 
-        {/* <Item /> */}
+        <Item />
       </div>
     </>
   );
