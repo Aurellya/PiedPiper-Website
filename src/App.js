@@ -7,6 +7,7 @@ import About from "./components/pages/About/About";
 import News from "./components/pages/News/News";
 import JoinUs from "./components/pages/JoinUs/JoinUs";
 import Footer from "./components/pages/Footer/Footer";
+import FullNews from "./components/pages/News/FullNews";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/news" component={News} />
         <Route path="/joinus" component={JoinUs} />
+        <Route path="/:_id" component={FullNews} />
       </Switch>
       <Footer />
     </Router>

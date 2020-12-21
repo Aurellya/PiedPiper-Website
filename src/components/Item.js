@@ -5,7 +5,7 @@ import "./Item.css";
 function Item(item) {
   return (
     <>
-      <Link to={"/"} style={{ textDecoration: "none" }}>
+      <Link to={`/${item.file}`} style={{ textDecoration: "none" }}>
         <div className={item.title == null ? "box hide" : "box"}>
           <div className="image">
             <img src={item.img} alt={item.alt} />
